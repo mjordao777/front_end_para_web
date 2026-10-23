@@ -1,20 +1,24 @@
 /* Criar estilo para a pagina, tais como cores e fontes das letras */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #99e3e3;
+    background-color: #1164d1;
     margin: 5px;
     padding: 5px;
 }
+header {
+    position: fixed;
+
+}
 /* Estilo para a seção principal */
 section {
-    background-color: #b9a9ff;
+    background-color: #21bdbd;
     border: 1px solid #CCCCCC;
     border-radius: 8px;
     padding: 20px;
 }
 /* Estilo para os artigos */
 article {
-    background-color: #e0e4a2;
+    background-color: #eaebe7;
     border: 1px solid #CCCCCC;
     border-radius: 8px;
     padding: 20px;
