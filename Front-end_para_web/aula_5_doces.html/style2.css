@@ -1,224 +1,255 @@
-
-
 /* ---------- AULA 5: tags (cores e fonte da página) ---------- */
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 18px;
-            line-height: 1.6;
-            color: #2b2b2b;
-            background-color: #fff7f2;
-        }
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #2b2b2b;
+    background-color: #fff7f2;
+}
 
-        h1, h2, h3, .logo {
-            font-family: Georgia, "Times New Roman", serif;
-            color: #e9ec11;
-        }
+h1,
+h2,
+h3,
+.logo {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #e9ec11;
+}
 
-        h2 {
-            font-size: 32px;
-            margin-top: 0;
-        }
+h2 {
+    font-size: 32px;
+    margin-top: 0;
+}
 
-        a {
-            color: #0e0d04;
-        }
+a {
+    color: #0e0d04;
+}
 
-        img {
-            max-width: 100%;   /* a imagem nunca passa da largura da tela */
-            height: auto;
-        }
+img {
+    max-width: 100%;
+    /* a imagem nunca passa da largura da tela */
+    height: auto;
+}
 
-        section {
-            padding: 48px 24px;
-        }
+section {
+    padding: 48px 24px;
+}
 
-        /* guarda o conteúdo num bloco centralizado */
-        .conteudo {
-            max-width: 1000px;
-            margin: 0 auto;
-        }
+/* guarda o conteúdo num bloco centralizado */
+.conteudo {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
-        /* ---------- AULA 5: classes do topo e do banner ---------- */
-        header {
-            background-color: #ffffff;
-            border-bottom: 4px solid #47d5e7;
-            padding: 12px 24px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-            gap: 8px;
-        }
+/* ---------- AULA 5: classes do topo e do banner ---------- */
+header {
+    background-color: #ffffff;
+    border-bottom: 4px solid #47d5e7;
+    padding: 12px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
 
-        .logo {
-            font-size: 28px;
-            font-weight: bold;
-            margin: 0;
-        }
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
 
-        nav a {
-            display: inline-block;
-            padding: 8px 12px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+nav a {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-        nav a:hover {
-            background-color: #f3e522;
-            color: #ececec;
-        }
+nav a:hover {
+    background-color: #f3e522;
+    color: #ececec;
+}
 
-        .banner {
-            background-color: #ececec;
-        }
+.banner {
+    background-color: #ececec;
+}
 
-        .banner .conteudo {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 32px;
-        }
+.banner .conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 32px;
+}
 
-        .banner-texto {
-            flex: 1 1 320px;
-        }
+.banner-texto {
+    flex: 1 1 320px;
+}
 
-        .banner-imagem {
-            flex: 1 1 320px;
-        }
+.banner-imagem {
+    flex: 1 1 320px;
+}
 
-        .banner h1 {
-            font-size: 44px;
-            line-height: 1.2;
-            margin-top: 0;
-        }
-        /* ---------- AULA 6: tabela de preços ---------- */
-        .botao {
-            display:inline-block;
-            background-color: #8a2b57;
-            color: #ffffff;
-            padding: 12px 28px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: bold;
-            border: none;
-            font-size: 18px;
-            cursor: pointer;
-        }
-        .botao:hover {
-            background-color: #5e1a3b;
-        }
-        
-        .cards {
-            display:flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
+.banner h1 {
+    font-size: 44px;
+    line-height: 1.2;
+    margin-top: 0;
+}
 
-        .card {
-            flex: 1 1 250px;
-            background-color: #ffffff;
-            border: 2px solid #8a2b57;
-            border-radius: 12px;
-            padding: 20px;
-        }
+/* ---------- AULA 6: tabela de preços ---------- */
+.botao {
+    display: inline-block;
+    background-color: #ffc400;
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
 
-        .card h3 {
-            margin-top: 0;
-        }
+.botao:hover {
+    background-color: #5e1a3b;
+}
 
-        .card-preco {
-            font-weight: bold;
-            color: #8a2b57;
-        }
-        /* ---------- AULA 6: tabela de preços ---------- */
-        .tabela {
-            width: 100%;
-            border-collapse: collapse;
-            background-color: #ffffff;
-        }
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
-        .tabela th {
-            background-color: #8a2b57;
-            color: #ffffff;
-            text-align: left;
-        }
+.card {
+    flex: 1 1 250px;
+    background-color: #ffffff;
+    border: 2px solid #8a2b57;
+    border-radius: 12px;
+    padding: 20px;
+}
 
-        .tabela th, 
-        .tabela td {
-            padding: 12px;
-            border: 1px solid #8a2b57;
-        }
+.card h3 {
+    margin-top: 0;
+}
 
-        .tabela td:last-child {
-            white-space: nowrap; /* o preço não quebra de linha */
-        }
+.card-preco {
+    font-weight: bold;
+    color: #8a2b57;
+}
 
-        .tabela tbody tr:hover {
-            background-color: #fbe3d6;
-        }
+/* ---------- AULA 6: tabela de preços ---------- */
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
 
-        .tabela caption {
-            text-align: left;
-            padding-bottom: 8px;
-            font-weight: bold;
-        }
-          /* ---------- AULA 7: formulário ---------- */
-        .campo {
-            margin-bottom: 20px;
-        }
+.tabela th {
+    background-color: #8a2b57;
+    color: #ffffff;
+    text-align: left;
+}
 
-        .campo label,
-        legend {
-            display: block;
-            font-weight: bold;
-            margin-bottom: 6px;
-        }
+.tabela th,
+.tabela td {
+    padding: 12px;
+    border: 1px solid #8a2b57;
+}
 
-        .campo input[type="text"],
-        .campo input[type="email"],
-        .campo input[type="tel"],
-        .campo select,
-        .campo textarea {
-            width: 100%;
-            box-sizing: border-box;
-            padding: 10px;
-            font-size: 18px;
-            border: 2px solid #8a2b57;
-            border-radius: 8px;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+.tabela td:last-child {
+    white-space: nowrap;
+    /* o preço não quebra de linha */
+}
 
-        fieldset {
-            border: 2px solid #8a2b57;
-            border-radius: 8px;
-        }
+.tabela tbody tr:hover {
+    background-color: #fbe3d6;
+}
 
-        .campo label.opcao {
-            display: inline-block;
-            font-weight: normal;
-            margin-right: 16px;
-        }
+.tabela caption {
+    text-align: left;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
 
-        /* contorno visível para quem navega só com a tecla Tab */
-        a:focus,
-        input:focus,
-        select:focus,
-        textarea:focus,
-        button:focus {
-            outline: 4px solid #1b4dd8;
-            outline-offset: 2px;
-        }
+/* ---------- AULA 7: formulário ---------- */
+.campo {
+    margin-bottom: 20px;
+}
 
-        /* ---------- rodapé ---------- */
-        footer {
-            background-color: #8a2b57;
-            color: #ffffff;
-            text-align: center;
-            padding: 20px 24px;
-        }
+.campo label,
+legend {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
 
-        footer p {
-            margin: 0;
-        }
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="tel"],
+.campo select,
+.campo textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #8a2b57;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    border: 2px solid #8a2b57;
+    border-radius: 8px;
+}
+
+.campo label.opcao {
+    display: inline-block;
+    font-weight: normal;
+    margin-right: 16px;
+}
+
+/* contorno visível para quem navega só com a tecla Tab */
+a:focus,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: 4px solid #1b4dd8;
+    outline-offset: 2px;
+}
+
+/* ---------- rodapé ---------- */
+footer {
+    background-color: #8a2b57;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 24px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* ---------- AULA 8: responsivo (telas até 700 px) ---------- */
+@media (max-width: 700px) {
+    body {
+        font-size: 17px;
+    }
+
+    .banner h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    section {
+        padding: 32px 16px;
+    }
+
+    .tabela th,
+    .tabela td {
+        padding: 8px;
+    }
+}
