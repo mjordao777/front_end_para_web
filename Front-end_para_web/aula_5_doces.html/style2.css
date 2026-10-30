@@ -5,12 +5,12 @@
             font-size: 18px;
             line-height: 1.6;
             color: #2b2b2b;
-            background-color: #fff7f2;
+            background-color: #046e42;
         }
 
         h1, h2, h3, .logo {
             font-family: Georgia, "Times New Roman", serif;
-            color: #8a2b57;
+            color: #046e42;
         }
 
         h2 {
@@ -19,7 +19,7 @@
         }
 
         a {
-            color: #8a2b57;
+            color: #0e0d04;
         }
 
         img {
@@ -39,8 +39,8 @@
 
         /* ---------- AULA 5: classes do topo e do banner ---------- */
         header {
-            background-color: #ffffff;
-            border-bottom: 4px solid #8a2b57;
+            background-color: #e5ebe8;
+            border-bottom: 4px solid #47d5e7;
             padding: 12px 24px;
             display: flex;
             flex-wrap: wrap;
@@ -63,12 +63,12 @@
         }
 
         nav a:hover {
-            background-color: #8a2b57;
+            background-color: #47d5e7;
             color: #ffffff;
         }
 
         .banner {
-            background-color: #fbe3d6;
+            background-color: #e5ebe8;
         }
 
         .banner .conteudo {
